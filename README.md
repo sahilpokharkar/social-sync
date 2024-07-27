@@ -39,8 +39,8 @@ Make sure you have the following installed:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/social-media-app.git
-    cd social-media-app
+    git clone https://github.com/sahilpokharkar/social-sync.git
+    cd social-sync
     ```
 
 2. Install dependencies:
@@ -53,6 +53,7 @@ Make sure you have the following installed:
     ```env
     MONGO_URI=your_mongodb_connection_string
     JWT_SECRET=your_jwt_secret_key
+    PORT=3001
     ```
 
 4. Start the server:
@@ -103,10 +104,3 @@ Make sure you have the following installed:
   - Helmet (for security)
   - Morgan (for logging)
 
-## Contributing
-
-If you want to contribute to this project, please fork the repository and create a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License.
